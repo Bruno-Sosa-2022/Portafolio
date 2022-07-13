@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 600px;
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media screen and (max-width: 320px) {
+    nav {
+        display: none;
+    }
+    header {
+        height: 550px;
+    }
+    .header-container {
+        padding: 240px 20px;
+    }
+    .header-container h1 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 40px;
+        color: white;
+    }
+    .header-container span {
+        font-family: 'Hind', sans-serif;
+        font-size: 20;
+        color: white;
+    }
+    section {
+        margin-top: 40px;
+    }
+    .subtitle-article {
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgb(53, 53, 53);
+    }
+    .sobre-mi {
+        margin: 20px;
+    }
+    .skils {
+        max-width: 320px;
+    }
+    .article-skils__container {
+        width: 320px;
+    }
+    .article-skils__container img {
+        width: 60px;
+    }
+    .article-skils__container h3 {
+        text-align: center;
+        font-family: 'Hind', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        color: rgb(53, 53, 53);
+    }
+    .article-skils__container a {
+        text-decoration: none;
+        color: rgb(2, 2, 2);
+    }
+    .container-skil {
+        display: inline-block;
+    }
+    .skil {
+        padding: 20px;
+        height: 100px;
+    }
+    .skil:hover {
+        transition: .5s;
+        background-color: rgba(161, 161, 161, 0.568);
+    }
+}
